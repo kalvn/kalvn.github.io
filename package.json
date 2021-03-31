@@ -1,13 +1,13 @@
 {
-  "name": "kalvn wiki",
+  "name": "kalvn-wiki",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "authors": {
-    "name": "",
+    "name": "kalvn",
     "email": ""
   },
-  "repository": "/wiki",
+  "repository": "https://github.com/kalvn/kalvn.github.io",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
