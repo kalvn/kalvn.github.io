@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'kalvn wiki',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,7 +16,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#667AD3' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
@@ -34,26 +34,27 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'dev',
+        link: '/dev/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'links',
+        link: 'https://links.kalvn.net'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'kalvn.net',
+        link: 'https://kalvn.net'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/dev/': [
         {
-          title: 'Guide',
+          title: 'dev',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'git',
+            'ghost',
           ]
         }
       ],
@@ -64,7 +65,7 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
+    // '@vuepress/plugin-back-to-top',
+    // '@vuepress/plugin-medium-zoom',
   ]
 }
